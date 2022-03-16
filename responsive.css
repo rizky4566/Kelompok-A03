@@ -1,0 +1,83 @@
+/* Buat responsive TABLET */
+@media all and (max-width: 1000px) {
+  .wrapper {
+      width: 75%;
+      margin: 40px;
+  }
+  
+
+  section {
+      display: block;    
+  }
+
+  .logo a {
+    padding-left: 85px; 
+}
+    
+
+}
+
+
+/* Buat responsive SMARTPHONE */
+@media all and (max-width: 670px) {
+
+
+.wrapper {
+    width: 100%;
+    margin: -5px;
+}
+
+.bg1 {
+    width: 390px;
+    height: 300px;   
+}
+
+.bganimal {
+    width: 400px;
+    height: 400px;
+}
+
+.satu {                         /*gambar partner*/
+    margin: -50px;
+    margin-bottom: 100px;       
+}
+
+section {
+    display: block;
+}
+
+.logo a {
+    padding-left: 40px;
+}
+
+.tutorlist {
+    display: block;
+}
+
+.partnerlist {
+    display: block;
+}
+
+input {
+    width: 250px;
+}
+
+textarea {
+    width: 250px;
+}
+
+.footer {
+    height: 270px;
+}
+
+.footer-logo {
+    font-size: 25px;
+    margin-bottom: 30px;
+    padding-left: 45px;
+}
+
+.footer-list li {
+    padding-right: 60px;
+}
+
+}

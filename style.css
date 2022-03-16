@@ -1,0 +1,254 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open sans',sans-serif;
+}
+
+li {
+    list-style: none;
+  }
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: #f79ae6;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #f7e6d6;
+    z-index: 9999;
+    border-bottom: 1px solid #dfc1a6;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;          /*tampilan div nanti kolom */
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #383c5a;
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-size: 45px;
+    font-weight: 800;
+    color: #383c5a;
+    width: 100%;
+    line-height: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+p {
+    margin: 10px 0px 10px 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.btnblue {
+    background-color: #219F94;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btnblue:hover {
+    background-color: #FE83C6;
+    text-decoration: none;
+}
+
+a.btnpink {
+    background-color: #f07cbc;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;  
+}
+
+a.btnpink:hover {
+    background-color: #219F94;
+    text-decoration: none;
+}
+
+
+
+        /* Tutor */
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutorlist {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;         /*biar gak jadi 1 baris*/
+}
+
+.kartututor {
+    width : 20%;
+    margin: 0 auto;
+}
+
+.kartututor img {
+    width: 100px;
+    height: 130px;
+    border-radius: 50%;
+    background-size: 100%;
+}
+
+.kartututor p {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #383c5a;
+}
+
+
+            /* Partner */
+.kerjasama {
+    text-align: center;
+    width: 100%;
+}
+
+.partnerlist {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kerjasama p {
+    border-bottom: 2px solid #dee7ec; 
+}
+
+.kartupartner {
+    width : 20%;
+    margin: 0 auto;
+}
+
+
+             /* Kontak */
+.judul-kontak {
+    font-size: 28px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #dee7ec;
+    margin-bottom: 50px;
+    font-family: 'comic sans-ms';
+    color: #383c5a;
+  }
+  
+  .kontak {
+    padding-top: 100px;
+    margin-left: 40px;
+  }
+  
+  input {         
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding:20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding:20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  .submit-kontak {      /*tombol kirim*/
+    font-size: 18px;
+    color: #889eab;
+    background-color: #dee7ec;
+  }
+
+
+        /* Footer */
+.footer {
+    color: #fff;
+    background-color: #2f5167;
+    height: 230px;
+    padding: 40px;
+    
+  }
+  
+  .footer-logo {
+    font-size: 32px;
+    float: left;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+
+  }
